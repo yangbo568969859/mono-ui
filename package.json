@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mono-ui/components": "workspace:^",
+    "@mono-ui/locale": "workspace:^",
+    "@mono-ui/theme-chalk": "workspace:^",
+    "@mono-ui/utils": "workspace:^"
+  },
+  "devDependencies": {
+    "@mono-ui/eslint-config": "workspace:*",
+    "@types/node": "^20.11.30",
+    "eslint": "^8.18.0",
+    "eslint-define-config": "^1.5.1",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.3",
+    "vue": "^3.4.21"
+  }
+}
