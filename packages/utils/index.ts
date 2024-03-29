@@ -6,3 +6,8 @@ export const withInstall = <T>(comp: T) => {
   }
   return comp as T & Plugin
 }
+
+const CLASS_PREFIX = 'mo'
+export const getComponentCls = (componentName: string): string => {
+  return `${CLASS_PREFIX}-${componentName}`
+}

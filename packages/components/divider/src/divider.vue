@@ -1,9 +1,9 @@
 <template>
-  <div>divider</div>
+  <div>divider11</div>
 </template>
 
 <script lang="ts" setup>
 defineOptions({
-  name: "MoDivider",
-});
+  name: 'MoDivider',
+})
 </script>

@@ -22,7 +22,8 @@
       "module": "esnext",
       "skipLibCheck": true,
       "allowJs": true,
-      "stripInternal": true
+      "stripInternal": true,
+      "allowSyntheticDefaultImports": true
     },
     "exclude": [
       "node_modules",
